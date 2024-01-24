@@ -1,0 +1,35 @@
+
+/*Comentar*/
+/*h1{
+    color:blue;
+}
+
+p{
+    color:blueviolet;
+}*/
+/*Sin Herencia*/
+/*p{
+    color:aqua;
+}
+a{
+    color:aqua;
+}*/
+/*Con Herencia*/
+/*p{
+    color:aqua;
+}
+a{
+    color:inherit;
+}*/
+/*especificacion*/
+#dos{
+    color:red;
+}
+.unos{
+    color:aqua
+}
+p{
+    color: blue !important;
+}
+/* Por regla de cascada se deberia colocar el color de <p> pero tiene mas valor la etiqueta class y a su vez la etiqueta id por lo tanto se coloca el color del id*/
+/* si se le coloca !important toamar como primera jerarqia dicha etiqueta*/

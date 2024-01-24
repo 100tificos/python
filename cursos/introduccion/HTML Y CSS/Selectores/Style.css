@@ -1,0 +1,46 @@
+*{/*selector universal: da estilo a todo*/
+    font-size: 50px;
+    color: pink;
+
+}
+h2{/*selector etiqueta: solo elije la etiqueta*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h3,h4,h5,h6{ /*selctor de etiquetas multiples*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: lightblue;
+}
+.parrafo{
+    font-family:'Courier New', Courier, monospace;
+    font-size:10px;
+    color:blueviolet;
+
+}
+#indety{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: size 30px;
+    color:brown;
+}
+p a{ /*selector descendente*/
+    font-size:10px;
+    color:black;
+}
+/*selector por herencia*/
+/*p > a{ 
+    font-size:10px;
+    color:black;
+}*/
+/*sector por atributo*/
+/*[class]{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: size 30px;
+    color:brown;
+}*/
+/*[class="parrafo"]{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: size 30px;
+    color:brown;
+}*/
