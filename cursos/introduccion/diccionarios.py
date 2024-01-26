@@ -47,11 +47,39 @@ else:
    print("ese pais no se encuentra")'''
 
 #Ejercicio2
-jugadores={ 1 : "Casillas", 15 : "Ramos",3 : "Pique", 5 : "Puyol", 11 : "Capdevila", 14 : "Xabi Alonso", 16 : "Busquets", 8 : "Xavi Hernandez", 18 : "Pedrito", 6 : "Iniesta", 7 : "Villa"}
+# jugadores={ 1 : "Casillas", 15 : "Ramos",3 : "Pique", 5 : "Puyol", 11 : "Capdevila", 14 : "Xabi Alonso", 16 : "Busquets", 8 : "Xavi Hernandez", 18 : "Pedrito", 6 : "Iniesta", 7 : "Villa"}
 
-jugador=int(input("ingrese el numero de jugador: "))
-if jugador in jugadores:
-    print(jugadores[jugador])
+# jugador=int(input("ingrese el numero de jugador: "))
+# if jugador in jugadores:
+#     print(jugadores[jugador])
    
-else:
-   print("ese jugador no se encuentra")
+# else:
+#    print("ese jugador no se encuentra")
+
+#otra forma de crear diccionarios 
+
+mi_diccionario = dict(
+    edward = [1.4, 4.5, 5.0],
+    carla = [4.4, 5.0, 5.0],
+    jonas = [0.0, 3.4, 5.0])
+
+mi_diccionario2 = dict()
+mi_diccionario2['edward'] = [1.4, 4.5, 5.0]
+mi_diccionario2['carla'] = [4.4, 5.0, 5.0]
+mi_diccionario2['jonas'] = [0.0, 3.4, 5.0]
+
+print(mi_diccionario)
+print(mi_diccionario2)
+print(mi_diccionario2['jonas'])
+
+mi_diccionario2['jonas'] = [0.2, 5.0, 5.0]
+print(mi_diccionario2['jonas'])
+
+del mi_diccionario2['jonas']
+print(mi_diccionario2)
+
+print(mi_diccionario.keys())
+print(mi_diccionario.values())
+print(mi_diccionario.items())
+
+
