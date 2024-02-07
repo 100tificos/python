@@ -58,3 +58,10 @@ for i in range(r1,r2+1):
     if i % 2 == 0:
         continue
     print(i)
+
+#enumerate retorna una tupla del valor y el indice de la lista 
+    
+lista_nombres = ['edward', 'David', 'Jose']
+
+for indice, valor in enumerate(lista_nombres):
+    print(indice,valor)
